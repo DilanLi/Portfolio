@@ -4,7 +4,7 @@
 This is my web dev portfolio website rebuilt in React. I created this website as a self introduction as well as a platform to showcase some of my projects.
 
 ## Deployed Link
-https://dilanli.github.io/Profile-React/  
+https://dilanli.github.io/portfolio  
 
 ## Credit 
 Thanks to Bernardo Garza Landa for the amazing react-scroll tutorial:   
