@@ -6,9 +6,9 @@ import goofyProfile from "../assets/headshot2.png"
 
 function Picture() {
   return (
-    <div className="col-md-4 col-sm-8 profile-container">
-                <img className="img-fluid" src={professionalProfile} alt="professional-profile" id="profile-picture"/>
-                <img className="img-fluid" src={goofyProfile} alt="goofy-profile" id="profile-picture2"/>
+    <div className="col-md-4 profile-container d-flex justify-content-center">
+                <img  src={professionalProfile} alt="professional-profile" id="profile-picture"/>
+                <img  src={goofyProfile} alt="goofy-profile" id="profile-picture2"/>
             </div>
   );
 }

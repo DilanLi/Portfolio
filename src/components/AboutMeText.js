@@ -8,9 +8,9 @@ function AboutMeText() {
         <span id="about-title">About</span>
       </div>
       <div className="col-md-9 col-sm-12 mx-2 about-me-text">
-        I am a junior full stack web developer who strives to deliver intuitive, responsive and meaningful user
+        I am a junior full stack web developer who strives to deliver intuitive and impactful user
         experiences. My dream is to contribute to products and applications that enhance people’s everyday life,
-        and make them look good! <span aria-label="sunglasses emoji" role="img">😎</span>
+        and have fun doing so! <span aria-label="sunglasses emoji" role="img">😎</span>
         <br/><br/>
         I grew up in China and moved to Utah at the age of 14. Growing up in two distinct cultures, I became a
         person who likes to maintain an open perspective and a curious mind. I love traveling, books, coffee,
