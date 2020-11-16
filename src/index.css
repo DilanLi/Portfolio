@@ -64,7 +64,7 @@ display: inline-block;
 padding: 20px;
 }
 
-.profile-container #profile-picture2, .profile-container #profile-picture{
+.profile-container #you-found-the-easter-egg, .profile-container #profile-picture{
   max-width: 300px;
   max-height: 300px;
   object-fit: cover;
@@ -72,7 +72,7 @@ padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(143, 143, 143, 0.19);
 }
 
-.profile-container #profile-picture2 {
+.profile-container #you-found-the-easter-egg {
   display: none;
 }
 
@@ -81,7 +81,7 @@ padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.profile-container:hover #profile-picture2 {
+.profile-container:hover #you-found-the-easter-egg {
   display: inline-block;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

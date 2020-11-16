@@ -8,7 +8,7 @@ function Picture() {
   return (
     <div className="col-md-4 profile-container d-flex justify-content-center">
                 <img  src={professionalProfile} alt="professional-profile" id="profile-picture"/>
-                <img  src={goofyProfile} alt="goofy-profile" id="profile-picture2"/>
+                <img  src={goofyProfile} alt="goofy-profile" id="you-found-the-easter-egg"/>
             </div>
   );
 }
