@@ -1,7 +1,8 @@
 import React from "react";
 import "../index.css";
 import githubLogo from "../assets/github.svg";
-import linkedinLogo from "../assets/linkedin.png"
+import linkedinLogo from "../assets/linkedin.png";
+import resume from "../assets/WebDevResume.pdf";
 
 
 function LinkLogos() {
@@ -11,7 +12,7 @@ function LinkLogos() {
                             className='logos'/></a>
                     <a href="https://www.linkedin.com/in/dilan-li-b3a8b3170" target="_blank" rel="noopener noreferrer"><img src={linkedinLogo}
                             alt="linkedin logo" className="logos"/></a>
-                    <a href="assets/Web Dev Resume.pdf" target="_blank" rel="noopener noreferrer"><button type="button"
+                    <a href={resume} target="_blank" rel="noopener noreferrer"><button type="button"
                             className="btn btn-warning resume">resume</button></a>
                 </div>
     );
