@@ -12,3 +12,6 @@ GitHub: bernardogarza
 turorial link: https://hackernoon.com/how-to-make-a-silky-smooth-scroll-in-react-5dj3xdl
 
 Thanks to https://serokell.io/team for the profile hover inspiration.
+
+Thanks to John Sorrentino for the favicon
+https://favicon.io/
