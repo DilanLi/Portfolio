@@ -1,32 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3f1a0784.chunk.css",
-    "main.js": "/Portfolio/static/js/main.dd4587e3.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.dd4587e3.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.6eb94ec9.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.6eb94ec9.js.map",
-    "static/js/2.7f01b86b.chunk.js": "/Portfolio/static/js/2.7f01b86b.chunk.js",
-    "static/js/2.7f01b86b.chunk.js.map": "/Portfolio/static/js/2.7f01b86b.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.78225d7c.css",
+    "main.js": "/Portfolio/static/js/main.e8ec5b4d.js",
+    "static/media/weather-dashboard.png": "/Portfolio/static/media/weather-dashboard.b2bf6c408b43b7d693c0.png",
+    "static/media/headshot.png": "/Portfolio/static/media/headshot.7410c47da4ce0381ac13.png",
+    "static/media/llamacorn-island.png": "/Portfolio/static/media/llamacorn-island.a817661a22d44a7eee76.png",
+    "static/media/headshot2.png": "/Portfolio/static/media/headshot2.53dd57f650f85bd17442.png",
+    "static/media/scout19.png": "/Portfolio/static/media/scout19.a4167298caa5d5c9a200.png",
+    "static/media/eat-da-burger.png": "/Portfolio/static/media/eat-da-burger.7b77c0f756ff7af6ee3a.png",
+    "static/media/lonewolf.png": "/Portfolio/static/media/lonewolf.09fa32045fb3e8ff2c01.png",
+    "static/media/exodus.png": "/Portfolio/static/media/exodus.daee057183b2acfc7c2a.png",
+    "static/media/resume.pdf": "/Portfolio/static/media/resume.517174bd01afc627290c.pdf",
+    "static/media/github.svg": "/Portfolio/static/media/github.b421346bf8ac71eabc30afa98aeaad48.svg",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.0e795e15f06486b37f45e031ffd834ab.js": "/Portfolio/precache-manifest.0e795e15f06486b37f45e031ffd834ab.js",
-    "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.3f1a0784.chunk.css.map": "/Portfolio/static/css/main.3f1a0784.chunk.css.map",
-    "static/js/2.7f01b86b.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.7f01b86b.chunk.js.LICENSE.txt",
-    "static/media/WebDevResume.pdf": "/Portfolio/static/media/WebDevResume.63342bd5.pdf",
-    "static/media/eat-da-burger.png": "/Portfolio/static/media/eat-da-burger.fe004cb9.png",
-    "static/media/exodus.png": "/Portfolio/static/media/exodus.f490918f.png",
-    "static/media/github.svg": "/Portfolio/static/media/github.b5d6376a.svg",
-    "static/media/headshot.png": "/Portfolio/static/media/headshot.bd953e06.png",
-    "static/media/headshot2.png": "/Portfolio/static/media/headshot2.8855b57b.png",
-    "static/media/llamacorn-island.png": "/Portfolio/static/media/llamacorn-island.92268f98.png",
-    "static/media/lonewolf.png": "/Portfolio/static/media/lonewolf.424eed80.png",
-    "static/media/scout19.png": "/Portfolio/static/media/scout19.f1c6cd59.png",
-    "static/media/weather-dashboard.png": "/Portfolio/static/media/weather-dashboard.3a1ac95f.png"
+    "main.78225d7c.css.map": "/Portfolio/static/css/main.78225d7c.css.map",
+    "main.e8ec5b4d.js.map": "/Portfolio/static/js/main.e8ec5b4d.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.6eb94ec9.js",
-    "static/js/2.7f01b86b.chunk.js",
-    "static/css/main.3f1a0784.chunk.css",
-    "static/js/main.dd4587e3.chunk.js"
+    "static/css/main.78225d7c.css",
+    "static/js/main.e8ec5b4d.js"
   ]
 }
