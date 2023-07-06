@@ -2,7 +2,7 @@ import React from "react";
 import "../index.css";
 import githubLogo from "../assets/github.svg";
 import linkedinLogo from "../assets/linkedin.png";
-import resume from "../assets/WebDevResume.pdf";
+import resume from "../assets/resume.pdf";
 
 
 function LinkLogos() {

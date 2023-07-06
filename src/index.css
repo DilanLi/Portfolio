@@ -113,20 +113,8 @@ p {
   font-size: 30px;
 }
 
-.creative-solutions {
-  font-weight: 800;
-  font-style: oblique;
-  color: orange;
-}
-
-.opportunity {
-  font-weight: 600;
-}
-
-
 p {
 margin: 15px;
-/* clear: both; */
 }
 
 .logos-list{
