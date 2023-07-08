@@ -1,15 +1,19 @@
-import React from "react";
 import "../index.css";
-import professionalProfile from "../assets/headshot.png";
-import goofyProfile from "../assets/headshot2.png"
-
+import headshot from "../assets/headshot.png";
+import headshot2 from "../assets/headshot2.png";
 
 function Picture() {
   return (
     <div className="col-md-4 profile-container d-flex justify-content-center">
-                <img  src={professionalProfile} alt="professional-profile" id="profile-picture"/>
-                <img  src={goofyProfile} alt="goofy-profile" id="you-found-the-easter-egg"/>
-            </div>
+      <div className="profile">
+        <img src={headshot2} alt="goofy-profile" className="profile-back" />
+        <img
+          src={headshot}
+          alt="professional-profile"
+          className="profile-front"
+        />
+      </div>
+    </div>
   );
 }
 

@@ -1,24 +1,22 @@
-/* overall style */
-
-html,body{
+html,
+body {
   overflow-x: hidden;
 }
 
 body {
-  font-family: Ubuntu! important;
+  font-family: Ubuntu;
 }
 
 #root {
   width: 100%;
 }
 
-/* navbar style */
 .nav-bar {
   position: fixed;
   top: 0;
   width: 100%;
   height: 60px;
-  background-color:#343a40!important;
+  background-color: #343a40;
   text-align: center;
   border-bottom: 3px #0199c7 solid;
   padding-left: 7%;
@@ -33,61 +31,61 @@ nav.container {
   float: left;
 }
 
-/* header links */
-      ul a {
-          color: #eaeeee;
-          font-size: 20px;
-      }
+ul a {
+  color: #eaeeee;
+  font-size: 20px;
+}
 
-      ul .active {
-          color: #0288b1;
-          font-weight: bolder;
-          font-size: 20px
-      }
+ul .active {
+  color: #0288b1;
+  font-weight: bolder;
+  font-size: 20px;
+}
 
-      a:hover {
-          color: #629296;
-          text-decoration: none;
-      }
-
+.nav-item:hover {
+  color: #629296;
+  cursor: pointer; 
+}
 
 #content-container {
-margin-top: 65px;
+  margin-top: 65px;
 }
 
-/*profile picture*/
 .profile-container {
-text-decoration: none;
-margin-top: 85px;
-padding: 0;
-display: inline-block;
-padding: 20px;
+  text-decoration: none;
+  margin-top: 85px;
+  padding: 0;
+  display: inline-block;
+  padding: 20px;
 }
 
-.profile-container #you-found-the-easter-egg, .profile-container #profile-picture{
+.profile-front,
+.profile-back {
   max-width: 300px;
   max-height: 300px;
   object-fit: cover;
   border-radius: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(143, 143, 143, 0.19);
+  backface-visibility: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1),
+    0 6px 20px 0 rgba(143, 143, 143, 0.19);
 }
 
-.profile-container #you-found-the-easter-egg {
-  display: none;
+.profile {
+  transform-style: preserve-3d;
+  transition: all 0.5s;
 }
 
-.profile-container:hover #profile-picture {
-  display: none;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.profile-container:hover .profile {
+  transform: rotateY(180deg);
 }
 
-.profile-container:hover #you-found-the-easter-egg {
-  display: inline-block;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.profile-back {
+  transform: rotateY(180deg);
+  position: absolute;
 }
 
-.about-me{
-margin-bottom: 30px!important;
+.about-me {
+  margin-bottom: 30px;
 }
 
 #about-title {
@@ -96,7 +94,7 @@ margin-bottom: 30px!important;
 }
 
 .about-me-text {
-font-size: larger;
+  font-size: larger;
 }
 
 .description {
@@ -114,65 +112,60 @@ p {
 }
 
 p {
-margin: 15px;
+  margin: 15px;
 }
 
-.logos-list{
-float: right;
+.logos-list {
+  float: right;
 }
 
 .logos {
-height:3em;
+  height: 3em;
 }
 
 .resume {
-background-color: orange!important;
+  background-color: orange;
 }
 
-/* style for all gitHub projects */
-
-#first-project{
-font-weight: 600;
-font-size: 35px;
+#first-project {
+  font-weight: 600;
+  font-size: 35px;
 }
 
-.projects-font{
+.projects-font {
   margin: auto;
 }
 
 .projects {
-width: 100%;
-border-radius: 15px;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(143, 143, 143, 0.19);
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1),
+    0 6px 20px 0 rgba(143, 143, 143, 0.19);
 }
 
 .projects:hover {
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .project-names {
-font-weight: 600;
-font-size: 25px;
+  font-weight: 600;
+  font-size: 25px;
 }
 
 .project-descriptions {
-font-size: 17px;
+  font-size: 17px;
 }
 
 .project-links {
-text-align: center;
+  text-align: center;
 }
 
 .project-links a {
-color:  #0288b1;
-font-size: 17px;
+  color: #0288b1;
+  font-size: 17px;
 }
 
-
-/*style for contact form*/
-  
-
-#information p{
+#information p {
   font-size: 20px;
 }
 
@@ -185,22 +178,23 @@ font-size: 17px;
 }
 
 .contact-container {
-line-height: 1.2em;
-margin-top:90px;
-margin-bottom: 0;
-padding-top: 20px;
-padding-bottom: 25px;
-padding-left: 13%;
-width: 100%;
-background-color: #42484f;
-text-align: left
+  line-height: 1.2em;
+  margin-top: 90px;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-left: 13%;
+  width: 100%;
+  background-color: #42484f;
+  text-align: left;
 }
 
-.contact-container p, .contact-container a {
-color: #eaeeee;
+.contact-container p,
+.contact-container a {
+  color: #eaeeee;
 }
 
 #copyright {
-padding-top: 15px;
-font-size: 14px;
+  padding-top: 15px;
+  font-size: 14px;
 }

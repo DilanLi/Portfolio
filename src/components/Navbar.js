@@ -17,13 +17,13 @@ function Navbar() {
         <div className="col-sm-12">
           <ul className="m-0 p-3">
             <li className="d-inline pr-2">
-            <Link to="about"  onClick={handleClick} className="active" smooth={true} duration={1000}>About</Link>
+            <Link to="about"  onClick={handleClick} className="active nav-item" smooth={true} duration={1000}>About</Link>
             </li>
             <li className="d-inline px-2 nav-tags">
-            <Link to="web-dev-projects"  onClick={handleClick} className="not-active" smooth={true} duration={1000}>Projects</Link>
+            <Link to="web-dev-projects"  onClick={handleClick} className="not-active nav-item" smooth={true} duration={1000}>Projects</Link>
             </li>
             <li className="d-inline px-2 nav-tags">
-            <Link to="contact" onClick={handleClick}  className="not-active" smooth={true} duration={1000}>Contact</Link>
+            <Link to="contact" onClick={handleClick}  className="not-active nav-item" smooth={true} duration={1000}>Contact</Link>
             </li>
           </ul>
         </div>

@@ -12,15 +12,14 @@ function AboutMeText() {
         experiences. My dream is to contribute to products and applications that enhance people’s everyday life,
         and have fun doing so! <span aria-label="sunglasses emoji" role="img">😎</span>
         <br/><br/>
-        I grew up in China and moved to Utah at the age of 14. Growing up in two distinct cultures, I became a
+        I grew up in China and now live in Salt Lake City, Utah. Growing up in two distinct cultures, I became a
         person who likes to maintain an open perspective and a curious mind. I love traveling, books, coffee,
         cats, good food, video games, and much more.
         <br/><br/>
 
-        Scroll down to see a list of the projects I have completed so far.
+        Scroll down to see some personal projects I did for fun.
     </div>
     </div>
-
   );
 }
 
