@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.78225d7c.css",
-    "main.js": "/Portfolio/static/js/main.e8ec5b4d.js",
+    "main.css": "/Portfolio/static/css/main.ae308d84.css",
+    "main.js": "/Portfolio/static/js/main.ae1176d8.js",
     "static/media/weather-dashboard.png": "/Portfolio/static/media/weather-dashboard.b2bf6c408b43b7d693c0.png",
     "static/media/headshot.png": "/Portfolio/static/media/headshot.7410c47da4ce0381ac13.png",
     "static/media/llamacorn-island.png": "/Portfolio/static/media/llamacorn-island.a817661a22d44a7eee76.png",
@@ -13,11 +13,11 @@
     "static/media/resume.pdf": "/Portfolio/static/media/resume.517174bd01afc627290c.pdf",
     "static/media/github.svg": "/Portfolio/static/media/github.b421346bf8ac71eabc30afa98aeaad48.svg",
     "index.html": "/Portfolio/index.html",
-    "main.78225d7c.css.map": "/Portfolio/static/css/main.78225d7c.css.map",
-    "main.e8ec5b4d.js.map": "/Portfolio/static/js/main.e8ec5b4d.js.map"
+    "main.ae308d84.css.map": "/Portfolio/static/css/main.ae308d84.css.map",
+    "main.ae1176d8.js.map": "/Portfolio/static/js/main.ae1176d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.78225d7c.css",
-    "static/js/main.e8ec5b4d.js"
+    "static/css/main.ae308d84.css",
+    "static/js/main.ae1176d8.js"
   ]
 }
